@@ -1,7 +1,7 @@
 {
     "name": "STM32 I2C Bootloader",
     "apiVersion": "1.0.0",
-    "author": "Alastair",
+    "author": "Alastair Bain",
     "version": "1.0.0",
     "description": "Decodes STM32 I2C bootloader protocol (AN4221)",
     "extensions": {
