@@ -1,0 +1,13 @@
+{
+    "name": "STM32 I2C Bootloader",
+    "apiVersion": "1.0.0",
+    "author": "Alastair",
+    "version": "1.0.0",
+    "description": "Decodes STM32 I2C bootloader protocol (AN4221)",
+    "extensions": {
+        "STM32 I2C Bootloader": {
+            "type": "HighLevelAnalyzer",
+            "entryPoint": "HighLevelAnalyzer.Stm32I2cBootloader"
+        }
+    }
+}
