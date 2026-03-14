@@ -21,4 +21,4 @@ Saleae Logic 2 High Level Analyzer for decoding STM32 I2C bootloader communicati
 
 ## Settings
 
-- **Device Address**: 7-bit I2C address of the STM32 bootloader (default: 0x56)
+- **Device Address**: 7-bit I2C address of the STM32 bootloader (default: 0x62). See AN2606 for the address used by your device.

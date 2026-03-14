@@ -69,10 +69,10 @@ class Stm32I2cBootloader(HighLevelAnalyzer):
             try:
                 self._addr = int(addr_str, 0)  # auto-detects 0x prefix
             except ValueError:
-                print(f"STM32 BL: invalid address '{addr_str}', using default 0x56")
-                self._addr = 0x56
+                print(f"STM32 BL: invalid address '{addr_str}', using default 0x62")
+                self._addr = 0x62
         else:
-            self._addr = 0x56
+            self._addr = 0x62
         print(f"STM32 BL: device address = 0x{self._addr:02X}")
         self._reset()
 
